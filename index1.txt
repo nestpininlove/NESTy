@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ฐานข้อมูลนักเรียน แผนกการจัดการสำนักงาน</title>
+
+<style>
+body{
+  font-family: "Sarabun", Arial, sans-serif;
+  background:#f2f6ff;
+  margin:0;
+}
+header{
+  background:#1e3a8a;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+input{
+  padding:8px;
+  width:320px;
+  margin:15px auto;
+  display:block;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+table{
+  width:95%;
+  margin:0 auto 30px;
+  border-collapse:collapse;
+  background:white;
+}
+th,td{
+  border:1px solid #ddd;
+  padding:10px;
+  text-align:center;
+  font-size:14px;
+}
+th{
+  background:#2563eb;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>ฐานข้อมูลรายชื่อนักเรียน</h2>
+  <p>แผนกการจัดการสำนักงาน</p>
+</header>
+
+<input type="text" placeholder="ค้นหาข้อมูลนักเรียน (ยังไม่เปิดใช้งาน)">
+
+<table>
+  <thead>
+    <tr>
+      <th>เลขที่</th>
+      <th>ชื่อ-สกุล</th>
+      <th>ชั้น/ห้อง</th>
+      <th>เบอร์โทรนักศึกษา</th>
+      <th>อีเมล</th>
+      <th>ที่อยู่</th>
+      <th>เบอร์ผู้ปกครอง</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- ยังไม่มีข้อมูล -->
+  </tbody>
+</table>
+
+</body>
+</html>
